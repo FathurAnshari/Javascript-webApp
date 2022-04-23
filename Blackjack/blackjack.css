@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  background: green;
+  color: white;
+}
+h1 {
+  margin-top: 4rem;
+  color: goldenrod;
+}
+
+p {
+  padding: 4rem;
+}
+
+#message-el {
+  font-size: 10rem;
+  font-weight: bold;
+  font-style: italic;
+}
+button {
+  color: #016f32;
+  width: 15rem;
+  background: goldenrod;
+  padding: 0.5rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
